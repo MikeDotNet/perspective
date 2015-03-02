@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Oswald', sans-serif;
+            font-size: 1em;
+        }
+
+        h1 {
+            font-size: 6em;
+            margin: 4vh;
+        }
+
+        h2 {
+            font-size: 3em;
+            margin-top: 1em;
+        }
+
+        .code {
+            font-size: 1em;
+            margin: 10vh auto;
+            width: 50%;
+            background-color: rgba(255, 255, 255, 0.5);
+            border: 1px solid #333;
+            padding: 10vh;
+            text-shadow: none;
+            color: #333;
+        }
+
+        code {
+            background-color: rgba(128, 128, 128, 0.075);
+            border-radius: 4px;
+            color: #3f3f3f;
+            font-size: 90%;
+            padding: 2px 4px;
+            white-space: nowrap;
+        }
+
+        pre {
+            background-color: rgba(128, 128, 128, 0.05);
+            border: 1px solid rgba(128, 128, 128, 0.075);
+            border-radius: 4px;
+            color: #333;
+            display: block;
+            font-size: 14px;
+            line-height: 1.45;
+            margin: 0 0 10.5px;
+            padding: 10px;
+            word-break: break-all;
+            word-wrap: break-word;
+        }
+
+            pre code {
+                background-color: transparent;
+                border-radius: 0;
+                color: inherit;
+                font-size: inherit;
+                padding: 0;
+                white-space: pre-wrap;
+            }
+
+        .pre-scrollable {
+            max-height: 340px;
+            overflow-y: scroll;
+        }
+
+        .parallax-container {
+            overflow: hidden;
+            position: relative;
+            color: #fff;
+            text-shadow: 0.4vw 0.4vw 0.4vw #222;
+          
+        }
+
+            .parallax-container * {
+                position: relative;
+            }
+
+        .parallax-img {
+            left: 0;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            -moz-transform: translate3d(0);
+            -ms-transform: translate3d(0);
+            -o-transform: translate3d(0);
+            -webkit-transform: translate3d(0);
+            transform: translate3d(0);
+            background: no-repeat;
+            background-position: center top;
+            height: 100%;
+            background-size: cover;
+        }
+
+        img.parallax-img {
+            height: auto;
+        }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+<body style="margin-top:50px;" id="bod">
+
+    <div class="parallax-container" style="width:100%; height:1000px;">
+        <div class="parallax-img" style="background-image:url('K2,_Mount_Godwin_Austen,_Chogori,_Savage_Mountain.jpg');"></div>
+        <div class=text-center>
+            <h1>Perspective</h1>
+            <p style="font-size:2em">HTML5, CSS3, GPU Accelerated Parallaxing</p>
+        </div>
+    </div>
+
+    <div style="height:50vh">
+        <div class="container " style="height:100%;">
+
+            <div class="col-xs-10 col-xs-offset-1" style="height:50vh" />
+            <div class="col-xs-4 text-center">
+                <img src="HTML5_Badge.svg" style="width:100%;height:50vh" />
+            </div>
+            <div class="col-xs-4 text-center">
+                <img src="CSS3_Logo.svg" style="width:100%;height:50vh" />
+            </div>
+            <div class="col-xs-4 text-center">
+                <img src="JS5_Logo.svg" style="width:100%;height:50vh" />
+            </div>
+        </div>
+
+    </div>
+
+    <div class="parallax-container" style="height:70vh;">
+        <!-- <div class="parallax-img" style="background-image:url('Cumulus_Clouds_Over_Jamaica.jpg');"></div>-->
+        <img class="parallax-img" src="Cumulus_Clouds_Over_Jamaica.jpg" />
+        <div class=text-center>
+            <h2><strong>Built</strong> for <em>SPEED</em>, but kept simple.</h2>
+
+        </div>
+        <div class="code">
+
+            <p>
+                &lt;div class=&quot;parallax-container&quot; style=&quot;height:70vh;&quot;&gt;
+                <br />
+                <span style="margin-left:2vh"></span>&lt;img class=&quot;parallax-img&quot; src=&quot;Cumulus_Clouds_Over_Jamaica.jpg&quot; /&gt;
+                <br />
+                &lt;/div&gt;
+            </p>
+
+
+        </div>
+    </div>
+    <div style="height:auto; font-size:60px; text-align:center;padding:20px;">
+        <p>CSS: Let's not make this more complicated than it has to be...</p>
+        <pre style="width:70%; text-align:left;margin:0 auto;">
+        <code>
+                .parallax-container {               
+                    overflow: hidden;
+                    position: relative;
+                }
+                .parallax-container * {
+                    position: relative;
+                }
+                .parallax-img {
+                    left: 0;
+                    width: 100%;
+                    position: absolute;
+                    top: 0;
+                    -moz-transform: translate3d(0);
+                    -ms-transform: translate3d(0);
+                    -o-transform: translate3d(0);
+                    -webkit-transform: translate3d(0);
+                    transform: translate3d(0);
+                    background: no-repeat;
+                    background-position: center top;
+                    height: 100%;
+                    background-size: cover;
+                }
+                img.parallax-img {
+                    height: auto;
+                }
+            </code>
+    </div>
+
+
+
+    <div class="parallax-container" style=" height:40vh;">
+        <img class="parallax-img" src='5R3QA3s.jpg' />
+        <div class="text-center">
+            <h2>What if I told you</h2>
+            <p>jQuery wasn't necessary?</p>
+
+            <p style="font-size:2em;margin-top:2vh">
+                &lt;script src=&quot;perspective.js&quot;&gt;&lt;/script&gt;
+            </p>
+
+
+            </pre><p style="font-size:1.2em">(Put it before the body close tag)</p>
+        </div>
+    </div>
+
+
+    <div style="position:fixed;top:0;left:0;width:100%;height:50px;background:#222;color:#fff;font-size:20px; line-height:50px;padding:0 10px">Perspective</div>
+
+    <script src="perspective.js"></script>
+</body>
+</html>
