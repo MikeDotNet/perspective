@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+<title>CSS3 Logo</title>
+<g>
+	<polygon fill="#264DE4" points="130.132,645.085 91,206.167 521,206.167 481.826,645.015 305.737,693.833 	"/>
+	<polygon fill="#2965F1" points="306,656.519 448.289,617.072 481.766,242.054 306,242.054 	"/>
+	<polygon fill="#EBEBEB" points="306,404.843 180.71,404.843 185.535,458.674 306,458.674 	"/>
+	<polygon fill="#EBEBEB" points="175.909,349.719 306,349.719 306,295.887 305.814,295.887 171.016,295.887 	"/>
+	<polygon fill="#EBEBEB" points="306,544.649 305.764,544.711 245.812,528.523 241.979,485.591 212.847,485.591 187.94,485.591 
+		195.482,570.113 305.752,600.726 306,600.656 	"/>
+	<polygon fill="#FFFFFF" points="305.814,404.843 305.814,458.674 372.101,458.674 365.854,528.489 305.814,544.694 
+		305.814,600.698 416.172,570.113 416.981,561.02 429.631,419.299 430.944,404.843 440.663,295.887 305.814,295.887 
+		305.814,349.719 381.668,349.719 376.771,404.843 	"/>
+</g>
+<rect y="65.5" fill="none" width="612" height="138"/>
+<text transform="matrix(1 0 0 1 149.7324 174.7871)" font-family="'Helvetica'" font-size="152">CSS</text>
+</svg>
