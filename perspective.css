@@ -1,0 +1,28 @@
+ .parallax-container {
+     overflow: hidden;
+     position: relative;
+ }
+
+ .parallax-container * {
+     position: relative;
+ }
+
+ .parallax-img {
+     left: 0;
+     width: 100%;
+     position: absolute;
+     top: 0;
+     -moz-transform: translate3d(0);
+     -ms-transform: translate3d(0);
+     -o-transform: translate3d(0);
+     -webkit-transform: translate3d(0);
+     transform: translate3d(0);
+     background: no-repeat;
+     background-position: center top;
+     height: 100%;
+     background-size: cover;
+ }
+
+ img.parallax-img {
+     height: auto;
+ }

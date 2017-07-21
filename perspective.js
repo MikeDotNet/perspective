@@ -95,21 +95,12 @@
     function newY(scrollTop, scrollBottom, parallaxContainer) { 
         //find whether parallaxImage is in viewable window
         if (Number(scrollBottom) >= Number(parallaxContainer.offsetTop) && scrollTop <= Number(parallaxContainer.offsetBottom)) {      
-            var newYc = Number((scrollTop - parallaxContainer.offsetTop) / speed).toFixed(2);          
-            //console.clear();
-            //console.log(Number(parallaxContainer.height))
-            //console.log(Number(parallaxContainer.imgHeight))
-            //console.log(newYc);
-            //console.log("imgHeight - height: "+ -(Math.abs(parallaxContainer.imgHeight - parallaxContainer.height)))
-           // console.log(Number(parallaxContainer.imgHeight) - Number(parallaxContainer.height))
+            var newYc = Number((scrollTop - parallaxContainer.offsetTop) / speed).toFixed(2);           
             if (newYc < -(Math.abs(parallaxContainer.imgHeight - parallaxContainer.height)) ) {
                 newYc = -(Math.abs(parallaxContainer.imgHeight - parallaxContainer.height));
             }
-          
-
             parallaxContainer.img.style.transform = 'translate3d(0px, ' + newYc + 'px,0)';
-            parallaxContainer.img.style.webkitTransform = 'translate3d(0px, ' + newYc + 'px,0)';
-         //    }
+            parallaxContainer.img.style.webkitTransform = 'translate3d(0px, ' + newYc + 'px,0)';        
         }
     }
 }());
